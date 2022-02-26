@@ -1,0 +1,179 @@
+.hide {
+    display: none;
+}
+#app {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#graph2D {
+    text-align: center;
+    margin-top: 15px;
+}
+#graph2D > div{
+    text-align: center;
+    float:left
+}
+.canvas {
+    margin-right: 70px;
+    margin-left: 30px;;
+}
+#canvas {
+    border-radius: 10px;
+}
+#ui {
+    text-align: right;
+    width: 70px;
+    max-height:max-content;
+}
+.showComponent {
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 32px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+.showComponent:hover {
+    background-color: transparent;
+    color: rgb(119, 0, 255);
+}
+#addFunction {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+#addFunction:hover {
+    background-color: transparent;
+    color: rgb(119, 0, 255);
+}
+.params {
+    margin-bottom: 3px;
+    padding-left: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgba(173, 177, 233, 0.452);
+    color: rgb(255, 255, 255);
+    max-width: 75px;
+}
+::-webkit-input-placeholder {
+    color:rgb(255, 255, 255);
+    opacity: 70%;
+    font-size: 12px;
+}
+#delete {
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 2px;
+    width: 74px;
+    margin: 5px 10px 10px 20px;
+}
+#delete:hover {
+    background-color: transparent;
+    color: rgb(173, 177, 233, 0.452);
+}
+body {
+    background-attachment: scroll;
+    background-color: #a1b2e6;
+    background-image: url(https://rus-pic.ru/wp-content/uploads/2021/05/krasivye-kartinki-na-avu-40-foto-1c33460.jpg);
+    background-repeat: no-repeat;
+    position: center center;
+    background-size: 100%;
+}
+input[type="checkbox"] {
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    position: relative;
+    outline: none;
+    transform: rotate(45deg);
+    -webkit-appearance: none;
+}
+/*input[type="checkbox"]:before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    border-radius: 75px 75px 75px 75px;
+}
+input[type="checkbox"]:after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    transform: rotate(100eg);
+    border-radius: 75px 75px 75px 75px;
+    top: 20%;
+    right: 75%;
+}*/
+input[type="checkbox"]:checked,
+input:checked[type="checkbox"]:before,
+input:checked[type="checkbox"]:after{
+    background-color: rgba(76, 44, 255, 0.61);
+}
+
+.calcInputs {
+    margin-top: 300px;
+}
+
+.results {
+margin: 40px 0 40px 0;
+}
+.resultNumber {
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: rgba(153, 159, 241, 0.664);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(216, 223, 235);
+}
+.number {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    background-color: rgba(153, 159, 241, 0.664);
+    border: none;
+    border-radius: 3px;
+    border-bottom: solid 2px white;;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;;
+}
+.operands {
+    background-color: rgba(153, 159, 241, 0.664);
+    border-color: #ffffff;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.operands {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.operands:hover {
+    background-color: white;
+    color: rgb(245, 147, 152);
+}
+
